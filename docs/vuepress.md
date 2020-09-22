@@ -1,4 +1,8 @@
 # vuepress
+## markdown参考
+1. [Qiita Markdown 書き方 まとめ](https://qiita.com/shizuma/items/8616bbe3ebe8ab0b6ca1)
+1. [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
+---
 ## ディレクトリ構成
 ```
 .
@@ -26,3 +30,19 @@
 
 
 ```
+
+- .vuepress  
+  ```
+  グローバル構成
+  コンポーネント
+  静的リソースなどを格納するために使用されます。
+  ```
+    - components  
+      ```
+      このディレクトリーのVueコンポーネントは、
+      グローバルコンポーネントとして自動的に登録されます。
+      ```
+    - theme  
+      ```
+      ローカルテーマを格納するために使用されます。
+      ```
