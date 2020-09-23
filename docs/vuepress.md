@@ -4,6 +4,7 @@
 2. [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
 3. [vuepressドキュメント](https://vuepress.vuejs.org/guide/getting-started.html#prerequisites)
 4. [Gitでやりたいこと、ここで見つかる](https://qiita.com/shimotaroo/items/b73d896ace10894fd290)
+5. [TermuxでgitのAndroid設定](https://debslink.hatenadiary.jp/entry/20180922/1537573651)
 ## ディレクトリ構成
 ```
 .
