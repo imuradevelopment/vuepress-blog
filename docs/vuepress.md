@@ -3,7 +3,10 @@
 1. [Qiita Markdown 書き方 まとめ](https://qiita.com/shizuma/items/8616bbe3ebe8ab0b6ca1)
 1. [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
 1. [[VuePress/Netlify]markdownだけでWebページを作成して公開するまで](https://qiita.com/ozaki25/items/a1988b01f83f6616b7f9)
----
+1. [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
+1. [vuepressドキュメント](https://vuepress.vuejs.org/guide/getting-started.html#prerequisites)
+1. [Gitでやりたいこと、ここで見つかる](https://qiita.com/shimotaroo/items/b73d896ace10894fd290)
+1. [TermuxでgitのAndroid設定](https://debslink.hatenadiary.jp/entry/20180922/1537573651)
 ## ディレクトリ構成
 ```
 .
@@ -46,4 +49,8 @@
     - theme  
       ```
       ローカルテーマを格納するために使用されます。
+      ```
+    - styles
+      ```
+      スタイル関連ファイルを格納します。
       ```
