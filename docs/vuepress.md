@@ -1,7 +1,8 @@
 # vuepress
 ## markdown参考
 1. [Qiita Markdown 書き方 まとめ](https://qiita.com/shizuma/items/8616bbe3ebe8ab0b6ca1)
-1. [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
+2. [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
+3. [vuepressドキュメント](https://vuepress.vuejs.org/guide/getting-started.html#prerequisites)
 ---
 ## ディレクトリ構成
 ```
