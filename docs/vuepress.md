@@ -2,6 +2,7 @@
 ## markdown参考
 1. [Qiita Markdown 書き方 まとめ](https://qiita.com/shizuma/items/8616bbe3ebe8ab0b6ca1)
 1. [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
+1. [[VuePress/Netlify]markdownだけでWebページを作成して公開するまで](https://qiita.com/ozaki25/items/a1988b01f83f6616b7f9)
 ---
 ## ディレクトリ構成
 ```
