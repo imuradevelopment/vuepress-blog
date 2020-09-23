@@ -5,18 +5,18 @@
 - [vuepress](#vuepress)
   - [ディレクトリ構成一覧](#%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E6%A7%8B%E6%88%90%E4%B8%80%E8%A6%A7)
   - [ディレクトリ構成詳細](#%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E6%A7%8B%E6%88%90%E8%A9%B3%E7%B4%B0)
-    - [docs\.vuepress](#docs%5Cvuepress)
-    - [docs\.vuepress\components](#docs%5Cvuepress%5Ccomponents)
-    - [docs\.vuepress\theme](#docs%5Cvuepress%5Ctheme)
-    - [docs\.vuepress\styles](#docs%5Cvuepress%5Cstyles)
-    - [docs\.vuepress\styles\index.styl](#docs%5Cvuepress%5Cstyles%5Cindexstyl)
-    - [docs\.vuepress\styles\palette.styl](#docs%5Cvuepress%5Cstyles%5Cpalettestyl)
-    - [docs\.vuepress\public](#docs%5Cvuepress%5Cpublic)
-    - [docs\.vuepress\templates](#docs%5Cvuepress%5Ctemplates)
-    - [docs\.vuepress\templates\dev.html](#docs%5Cvuepress%5Ctemplates%5Cdevhtml)
-    - [docs\.vuepress\templates\ssr.html](#docs%5Cvuepress%5Ctemplates%5Cssrhtml)
-    - [docs\.vuepress\config.js](#docs%5Cvuepress%5Cconfigjs)
-    - [docs\.vuepress\enhanceApp.js](#docs%5Cvuepress%5Cenhanceappjs)
+    - [docs-.vuepress](#docs-vuepress)
+    - [docs-.vuepress-components](#docs-vuepress-components)
+    - [docs-.vuepress-theme](#docs-vuepress-theme)
+    - [docs-.vuepress-styles](#docs-vuepress-styles)
+    - [docs-.vuepress-styles-index.styl](#docs-vuepress-styles-indexstyl)
+    - [docs-.vuepress-styles-palette.styl](#docs-vuepress-styles-palettestyl)
+    - [docs-.vuepress-public](#docs-vuepress-public)
+    - [docs-.vuepress-templates](#docs-vuepress-templates)
+    - [docs-.vuepress-templates-dev.html](#docs-vuepress-templates-devhtml)
+    - [docs-.vuepress-templates-ssr.html](#docs-vuepress-templates-ssrhtml)
+    - [docs-.vuepress-config.js](#docs-vuepress-configjs)
+    - [docs-.vuepress-enhanceApp.js](#docs-vuepress-enhanceappjs)
 
 <!-- /TOC -->
 ## ブログ構築
@@ -62,63 +62,62 @@
 
 ### ディレクトリ構成詳細
 
-#### docs\.vuepress
+#### docs-.vuepress
   ```
     グローバル構成、コンポーネント、静的リソースなどを格納するために使用されます。
   ```
 
-#### docs\.vuepress\components
+#### docs-.vuepress-components
   ```
     このディレクトリーのVueコンポーネントは、グローバルコンポーネントとして自動的に登録されます。
   ```
 
-#### docs\.vuepress\theme
+#### docs-.vuepress-theme
   ```
     ローカルテーマを格納するために使用されます。
   ```
 
-#### docs\.vuepress\styles
+#### docs-.vuepress-styles
   ```
     スタイル関連ファイルを格納します。
   ```
 
-#### docs\.vuepress\styles\index.styl
+#### docs-.vuepress-styles-index.styl
   ```
     CSSファイルの最後に生成される、自動的に適用されるグローバルスタイルファイルは、デフォルトスタイルよりも優先されます。
   ```
 
-#### docs\.vuepress\styles\palette.styl
+#### docs-.vuepress-styles-palette.styl
   ```
     パレットは、デフォルトの色定数を上書きし、スタイラスの色定数を設定するために使用されます。
    ```
 
-#### docs\.vuepress\public
+#### docs-.vuepress-public
   ```
     静的リソースディレクトリ。
   ```
 
-#### docs\.vuepress\templates
+#### docs-.vuepress-templates
   ```
     HTMLテンプレートファイルを保存します。
   ```
 
-#### docs\.vuepress\templates\dev.html
+#### docs-.vuepress-templates-dev.html
   ```
     開発環境用のHTMLテンプレートファイル。
   ```
 
-#### docs\.vuepress\templates\ssr.html
+#### docs-.vuepress-templates-ssr.html
   ```
     ビルド時のVue SSRベースのHTMLテンプレートファイル。
   ```
 
-#### docs\.vuepress\config.js
+#### docs-.vuepress-config.js
   ```
     構成のエントリファイル。ymlまたはにすることもできますtoml。
   ```
 
-#### docs\.vuepress\enhanceApp.js
+#### docs-.vuepress-enhanceApp.js
   ```
     アプリレベルの機能強化
   ```
-
