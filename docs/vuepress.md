@@ -1,35 +1,16 @@
-<!-- TOC -->
-
-- [ブログ構築](#%E3%83%96%E3%83%AD%E3%82%B0%E6%A7%8B%E7%AF%89)
-  - [参考](#%E5%8F%82%E8%80%83)
-- [vuepress](#vuepress)
-  - [ディレクトリ構成一覧](#%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E6%A7%8B%E6%88%90%E4%B8%80%E8%A6%A7)
-  - [ディレクトリ構成詳細](#%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E6%A7%8B%E6%88%90%E8%A9%B3%E7%B4%B0)
-    - [docs > .vuepress](#docs--vuepress)
-    - [docs > .vuepress > components](#docs--vuepress--components)
-    - [docs > .vuepress > theme](#docs--vuepress--theme)
-    - [docs > .vuepress > styles](#docs--vuepress--styles)
-    - [docs > .vuepress > styles > index.styl](#docs--vuepress--styles--indexstyl)
-    - [docs > .vuepress > styles > palette.styl](#docs--vuepress--styles--palettestyl)
-    - [docs > .vuepress > public](#docs--vuepress--public)
-    - [docs > .vuepress > templates](#docs--vuepress--templates)
-    - [docs > .vuepress > templates > dev.html](#docs--vuepress--templates--devhtml)
-    - [docs > .vuepress > templates > ssr.html](#docs--vuepress--templates--ssrhtml)
-    - [docs > .vuepress > config.js](#docs--vuepress--configjs)
-    - [docs > .vuepress > enhanceApp.js](#docs--vuepress--enhanceappjs)
-
-<!-- /TOC -->
+[[TOC]]
 ## ブログ構築
 
 ### 参考
 1. [Qiita Markdown 書き方 まとめ](https://qiita.com/shizuma/items/8616bbe3ebe8ab0b6ca1)
-1. [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
-1. [[VuePress/Netlify]markdownだけでWebページを作成して公開するまで](https://qiita.com/ozaki25/items/a1988b01f83f6616b7f9)
-1. [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
-1. [vuepressドキュメント](https://vuepress.vuejs.org/guide/getting-started.html#prerequisites)
-1. [Gitでやりたいこと、ここで見つかる](https://qiita.com/shimotaroo/items/b73d896ace10894fd290)
-1. [TermuxでgitのAndroid設定](https://debslink.hatenadiary.jp/entry/20180922/1537573651)
-
+2. [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
+3. [[VuePress/Netlify]markdownだけでWebページを作成して公開するまで](https://qiita.com/ozaki25/items/a1988b01f83f6616b7f9)
+4. [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
+5. [vuepressドキュメント](https://vuepress.vuejs.org/guide/getting-started.html#prerequisites)
+6. [Gitでやりたいこと、ここで見つかる](https://qiita.com/shimotaroo/items/b73d896ace10894fd290)
+7. [TermuxでgitのAndroid設定](https://debslink.hatenadiary.jp/entry/20180922/1537573651)
+8. [リダイレクト？](https://vuepress.vuejs.org/guide/markdown.html#redirection-for-urls)
+1. [使える絵文字一覧](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json)
 ## vuepress
 
 ### ディレクトリ構成一覧
