@@ -13,6 +13,7 @@
 8. [リダイレクト？](https://vuepress.vuejs.org/guide/markdown.html#redirection-for-urls)
 9. [使える絵文字一覧](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json)
 10. [コードスニペットのimport](https://vuepress.vuejs.org/guide/markdown.html#import-code-snippets)
+11. [netlifyナレッジ共有](https://qiita.com/asahi13/items/4efc5615fa60384c5220)
 ## vuepress
 
 ### ディレクトリ構成一覧
