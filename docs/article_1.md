@@ -10,6 +10,9 @@
 ::: danger
  This is a dangerous warning 
 ::: 
-::: details
- This is a details block, which does not work in IE / Edge 
+::: details コードスニペットのテスト
+ ```js{2}
+ let str = "HelloWorld"
+ console.log(str);
+ ```
 :::
