@@ -11,7 +11,8 @@
 6. [Gitでやりたいこと、ここで見つかる](https://qiita.com/shimotaroo/items/b73d896ace10894fd290)
 7. [TermuxでgitのAndroid設定](https://debslink.hatenadiary.jp/entry/20180922/1537573651)
 8. [リダイレクト？](https://vuepress.vuejs.org/guide/markdown.html#redirection-for-urls)
-1. [使える絵文字一覧](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json)
+9. [使える絵文字一覧](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json)
+10. [コードスニペットのimport](https://vuepress.vuejs.org/guide/markdown.html#import-code-snippets)
 ## vuepress
 
 ### ディレクトリ構成一覧
