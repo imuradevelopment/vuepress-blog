@@ -1,10 +1,10 @@
 # 1日目の記事
 
 - 1日目の記事です
-::: tip
+::: tip 
  This is a tip 
 ::: 
-::: warning
+::: warning 警告
  This is a warning 
 ::: 
 ::: danger
