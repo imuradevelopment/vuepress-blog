@@ -50,6 +50,11 @@ module.exports = {
     },
     // algolia docsearch options for current locale
     algolia: {},
+    sidebar: {
+      "/blog/": ["", "/vuepress"],
+      "/": ["/", "/article_1", "/article_2", "/article_3"],
+    },
+    //sidebar: ["/", "/article_1", "/article_2", "/article_3", "/vuepress"],
     nav: [
       {
         text: "blog",
@@ -57,11 +62,6 @@ module.exports = {
         ariaLabel: "blog",
       },
     ],
-    sidebar: {
-      "/blog/": ["", "/vuepress"],
-      "/": ["/", "/article_1", "/article_2", "/article_3"],
-    },
-    //sidebar: ["/", "/article_1", "/article_2", "/article_3", "/vuepress"],
   },
   markdown: {
     lineNumbers: true,
