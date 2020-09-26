@@ -13,6 +13,7 @@
   - 調査
     - [リダイレクト？](https://vuepress.vuejs.org/guide/markdown.html#redirection-for-urls)
     - [フロントマター](https://vuepress.vuejs.org/guide/markdown.html#frontmatter)
+    - [SEO対策](https://blog.ouvill.net/blog/2019-03-30--vuepress_blog/make_vuepress_blog/#seo-%E5%AF%BE%E7%AD%96%E3%82%92%E6%96%BD%E3%81%99)
 - markdown
     - [Qiita Markdown 書き方 まとめ](https://qiita.com/shizuma/items/8616bbe3ebe8ab0b6ca1)
     - [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
