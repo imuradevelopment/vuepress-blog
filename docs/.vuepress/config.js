@@ -31,35 +31,35 @@ module.exports = {
   themeConfig: {
     locales: {
       "/": {
-        // text for the language dropdown
-        selectText: "Languages",
-        // label for this locale in the language dropdown
-        label: "English",
-        // Aria Label for locale in the dropdown
-        ariaLabel: "Languages",
-        // text for the edit-on-github link
-        editLinkText: "Edit this page on GitHub",
-        // config for Service Worker
-        serviceWorker: {
-          updatePopup: {
-            message: "New content is available.",
-            buttonText: "Refresh"
-          }
-        }
+        // // text for the language dropdown
+        // selectText: "Languages",
+        // // label for this locale in the language dropdown
+        // label: "English",
+        // // Aria Label for locale in the dropdown
+        // ariaLabel: "Languages",
+        // // text for the edit-on-github link
+        // editLinkText: "Edit this page on GitHub",
+        // // config for Service Worker
+        // serviceWorker: {
+        //   updatePopup: {
+        //     message: "New content is available.",
+        //     buttonText: "Refresh"
+        //   }
+        // }
       }
     },
     // algolia docsearch options for current locale
     algolia: {},
     nav: [
       {
-        text: "Buildblog",
-        link: "/buildblog/",
-        ariaLabel: "Buildblog"
+        text: 'Buildblog',
+        link: '/buildblog/',
+        ariaLabel: 'Buildblog'
       }
     ],
     sidebar: {
-      "/buildblog/": ["/", "/vuepress"],
-      "/": ["/", "/article_1", "/article_2", "/article_3"]
+      '/buildblog/': ['', '/vuepress'] ,
+      '/': ['/', '/article_1', '/article_2', '/article_3']
     },
     //sidebar: ["/", "/article_1", "/article_2", "/article_3", "/vuepress"],
   },
