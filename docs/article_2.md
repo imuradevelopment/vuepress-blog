@@ -1,3 +1,6 @@
-# 2日目の記事
+# vuepressプラグイン
+## vuepress-plugin-seo
+```
+npm install --save vuepress-plugin-seo
 
-- 2日目の記事です
+```
