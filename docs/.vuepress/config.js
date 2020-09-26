@@ -53,7 +53,7 @@ module.exports = {
     nav: [
       {
         text: "ブログ構築",
-        link: "/ブログ構築/",
+        link: "/buildblog/",
         ariaLabel: "ブログ構築",
       },
     ],
