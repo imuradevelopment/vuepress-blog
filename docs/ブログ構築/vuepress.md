@@ -2,26 +2,26 @@
 [[TOC]]
 ## 全般
 
-### 参考
-#### vuepress関連
-##### よく使う
-5. [vuepressドキュメント](https://vuepress.vuejs.org/guide/getting-started.html#prerequisites)
-##### 後で使う
-9. [使える絵文字一覧](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json)
-10. [コードスニペットのimport](https://vuepress.vuejs.org/guide/markdown.html#import-code-snippets)
-##### 調査
-8. [リダイレクト？](https://vuepress.vuejs.org/guide/markdown.html#redirection-for-urls)
-#### markdown関連
-1. [Qiita Markdown 書き方 まとめ](https://qiita.com/shizuma/items/8616bbe3ebe8ab0b6ca1)
-2. [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
-4. [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
-#### 構築関連
-3. [[VuePress/Netlify]markdownだけでWebページを作成して公開するまで](https://qiita.com/ozaki25/items/a1988b01f83f6616b7f9)
-7. [TermuxでgitのAndroid設定](https://debslink.hatenadiary.jp/entry/20180922/1537573651)
-#### Git
-6. [Gitでやりたいこと、ここで見つかる](https://qiita.com/shimotaroo/items/b73d896ace10894fd290)
-#### Netlify
-11. [netlifyナレッジ共有](https://qiita.com/asahi13/items/4efc5615fa60384c5220)
+### 参考リンク
+- vuepress
+  - よく使う
+    - [vuepressドキュメント](https://vuepress.vuejs.org/guide/getting-started.html#prerequisites)
+  - 後で使う
+    - [使える絵文字一覧](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json)
+    - [コードスニペットのimport](https://vuepress.vuejs.org/guide/markdown.html#import-code-snippets)
+  - 調査
+    - [リダイレクト？](https://vuepress.vuejs.org/guide/markdown.html#redirection-for-urls)
+- markdown
+    - [Qiita Markdown 書き方 まとめ](https://qiita.com/shizuma/items/8616bbe3ebe8ab0b6ca1)
+    - [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
+    - [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
+- 構築
+    - [[VuePress/Netlify]markdownだけでWebページを作成して公開するまで](https://qiita.com/ozaki25/items/a1988b01f83f6616b7f9)
+    - [TermuxでgitのAndroid設定](https://debslink.hatenadiary.jp/entry/20180922/1537573651)
+- Git
+  - [Gitでやりたいこと、ここで見つかる](https://qiita.com/shimotaroo/items/b73d896ace10894fd290)
+- Netlify
+  - [netlifyナレッジ共有](https://qiita.com/asahi13/items/4efc5615fa60384c5220)
 
 ## vuepress
 
