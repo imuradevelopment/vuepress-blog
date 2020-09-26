@@ -30,40 +30,34 @@ module.exports = {
   },
   themeConfig: {
     locales: {
-      '/': {
+      "/": {
         // text for the language dropdown
-        selectText: 'Languages',
+        selectText: "Languages",
         // label for this locale in the language dropdown
-        label: 'English',
+        label: "English",
         // Aria Label for locale in the dropdown
-        ariaLabel: 'Languages',
+        ariaLabel: "Languages",
         // text for the edit-on-github link
-        editLinkText: 'Edit this page on GitHub',
+        editLinkText: "Edit this page on GitHub",
         // config for Service Worker
         serviceWorker: {
           updatePopup: {
             message: "New content is available.",
-            buttonText: "Refresh"
-          }
-        }
-      }
-    },
-  // algolia docsearch options for current locale
-        algolia: {},
-        nav: [
-          { text: 'Nested', link: '/nested/' , ariaLabel: 'Nested' }
-        ],
-        sidebar: {
-          '/': [/* ... */],
-          '/nested/': [/* ... */]
+            buttonText: "Refresh",
+          },
         },
-    sidebar: [
-      "/",
-      "/article_1",
-      "/article_2",
-      "/article_3",
-      "ブログ構築/vuepress",
+      },
+    },
+    // algolia docsearch options for current locale
+    algolia: {},
+    nav: [
+      { text: "ブログ構築", link: "/ブログ構築/", ariaLabel: "ブログ構築" },
     ],
+    sidebar: {
+      "/": ["/", "/article_1", "/article_2", "/article_3"],
+      "/nested/": ["/vuepress"],
+    },
+    //sidebar: ["/", "/article_1", "/article_2", "/article_3", "/vuepress"],
   },
   markdown: {
     lineNumbers: true,
