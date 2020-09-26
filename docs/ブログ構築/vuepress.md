@@ -9,8 +9,10 @@
   - 後で使う
     - [使える絵文字一覧](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json)
     - [コードスニペットのimport](https://vuepress.vuejs.org/guide/markdown.html#import-code-snippets)
+    - [コンテナ拡張](https://vuepress.github.io/en/plugins/container/#installation)
   - 調査
     - [リダイレクト？](https://vuepress.vuejs.org/guide/markdown.html#redirection-for-urls)
+    - [フロントマター](https://vuepress.vuejs.org/guide/markdown.html#frontmatter)
 - markdown
     - [Qiita Markdown 書き方 まとめ](https://qiita.com/shizuma/items/8616bbe3ebe8ab0b6ca1)
     - [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
