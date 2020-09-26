@@ -59,7 +59,7 @@ module.exports = {
     ],
     sidebar: {
       "/": ["/", "/article_1", "/article_2", "/article_3"],
-      "/ブログ構築/": ["/vuepress"],
+      "/buildblog/": ["/vuepress"],
     },
     //sidebar: ["/", "/article_1", "/article_2", "/article_3", "/vuepress"],
   },
