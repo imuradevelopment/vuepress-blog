@@ -51,7 +51,7 @@ module.exports = {
     // algolia docsearch options for current locale
     algolia: {},
     sidebar: {
-      "/blog/": ["", "/vuepress"],
+      "/blog/": ["", "/blog/vuepress"],
       "/": ["/", "/article_1", "/article_2", "/article_3"],
     },
     //sidebar: ["/", "/article_1", "/article_2", "/article_3", "/vuepress"],
