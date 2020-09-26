@@ -55,7 +55,7 @@ module.exports = {
     ],
     sidebar: {
       "/": ["/", "/article_1", "/article_2", "/article_3"],
-      "/nested/": ["/vuepress"],
+      "/ブログ構築/": ["/vuepress"],
     },
     //sidebar: ["/", "/article_1", "/article_2", "/article_3", "/vuepress"],
   },
