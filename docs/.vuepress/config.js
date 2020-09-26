@@ -1,18 +1,4 @@
 module.exports = {
-  title: "ADHDの休憩所",
-  themeConfig: {
-    sidebar: [
-      "/",
-      "/article_1",
-      "/article_2",
-      "/article_3",
-      "ブログ構築/vuepress",
-    ],
-  },
-  markdown: {
-    lineNumbers: true,
-    toc: { includeLevel: [1, 2, 3] },
-  },
   locales: {
     "/": {
       lang: "ja",
@@ -41,6 +27,47 @@ module.exports = {
         ],
       ],
     },
+  },
+  themeConfig: {
+    locales: {
+      '/': {
+        // text for the language dropdown
+        selectText: 'Languages',
+        // label for this locale in the language dropdown
+        label: 'English',
+        // Aria Label for locale in the dropdown
+        ariaLabel: 'Languages',
+        // text for the edit-on-github link
+        editLinkText: 'Edit this page on GitHub',
+        // config for Service Worker
+        serviceWorker: {
+          updatePopup: {
+            message: "New content is available.",
+            buttonText: "Refresh"
+          }
+        }
+      }
+    },
+  // algolia docsearch options for current locale
+        algolia: {},
+        nav: [
+          { text: 'Nested', link: '/nested/' , ariaLabel: 'Nested' }
+        ],
+        sidebar: {
+          '/': [/* ... */],
+          '/nested/': [/* ... */]
+        },
+    sidebar: [
+      "/",
+      "/article_1",
+      "/article_2",
+      "/article_3",
+      "ブログ構築/vuepress",
+    ],
+  },
+  markdown: {
+    lineNumbers: true,
+    toc: { includeLevel: [1, 2, 3] },
   },
   seo: {},
 };
