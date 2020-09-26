@@ -43,29 +43,29 @@ module.exports = {
         serviceWorker: {
           updatePopup: {
             message: "New content is available.",
-            buttonText: "Refresh",
-          },
-        },
-      },
+            buttonText: "Refresh"
+          }
+        }
+      }
     },
     // algolia docsearch options for current locale
     algolia: {},
     nav: [
       {
-        text: "ブログ構築",
+        text: "Buildblog",
         link: "/buildblog/",
-        ariaLabel: "ブログ構築",
-      },
+        ariaLabel: "Buildblog"
+      }
     ],
     sidebar: {
-      "/buildblog/": ["", "/vuepress"],
-      "/": ["/", "/article_1", "/article_2", "/article_3"],
+      "/buildblog/": ["/", "/vuepress"],
+      "/": ["/", "/article_1", "/article_2", "/article_3"]
     },
     //sidebar: ["/", "/article_1", "/article_2", "/article_3", "/vuepress"],
   },
   markdown: {
     lineNumbers: true,
-    toc: { includeLevel: [1, 2, 3] },
+    toc: { includeLevel: [1, 2, 3] }
   },
   seo: {},
 };
