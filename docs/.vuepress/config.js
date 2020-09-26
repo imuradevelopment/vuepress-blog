@@ -46,26 +46,26 @@ module.exports = {
         //     buttonText: "Refresh"
         //   }
         // }
-      }
+      },
     },
     // algolia docsearch options for current locale
     algolia: {},
     nav: [
       {
-        text: 'Buildblog',
-        link: '/buildblog/',
-        ariaLabel: 'Buildblog'
-      }
+        text: "blog",
+        link: "/blog/",
+        ariaLabel: "blog",
+      },
     ],
     sidebar: {
-      '/buildblog/': ['', '/vuepress'] ,
-      '/': ['/', '/article_1', '/article_2', '/article_3']
+      "/blog/": ["", "/vuepress"],
+      "/": ["/", "/article_1", "/article_2", "/article_3"],
     },
     //sidebar: ["/", "/article_1", "/article_2", "/article_3", "/vuepress"],
   },
   markdown: {
     lineNumbers: true,
-    toc: { includeLevel: [1, 2, 3] }
+    toc: { includeLevel: [1, 2, 3] },
   },
   seo: {},
 };
