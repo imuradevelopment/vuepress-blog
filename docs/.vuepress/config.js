@@ -58,8 +58,8 @@ module.exports = {
       },
     ],
     sidebar: {
+      "/buildblog/": ["", "/vuepress"],
       "/": ["/", "/article_1", "/article_2", "/article_3"],
-      "/buildblog/": ["/vuepress"],
     },
     //sidebar: ["/", "/article_1", "/article_2", "/article_3", "/vuepress"],
   },
