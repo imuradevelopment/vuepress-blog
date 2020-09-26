@@ -11,6 +11,6 @@ module.exports = {
   },
   markdown: {
     lineNumbers: true,
-    toc: { includeLevel: [1, 2] },
+    toc: { includeLevel: [1, 2, 3] },
   },
 };
