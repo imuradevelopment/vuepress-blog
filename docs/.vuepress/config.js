@@ -51,7 +51,11 @@ module.exports = {
     // algolia docsearch options for current locale
     algolia: {},
     nav: [
-      { text: "ブログ構築", link: "/ブログ構築/", ariaLabel: "ブログ構築" },
+      {
+        text: "ブログ構築",
+        link: "/ブログ構築/vuepress",
+        ariaLabel: "ブログ構築",
+      },
     ],
     sidebar: {
       "/": ["/", "/article_1", "/article_2", "/article_3"],
