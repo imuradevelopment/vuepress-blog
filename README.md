@@ -1,3 +1,7 @@
 # Hello Vuepress
 
-- スマホからのテストssh
+- ローカルテスト
+
+```
+npx vuepress dev
+```
