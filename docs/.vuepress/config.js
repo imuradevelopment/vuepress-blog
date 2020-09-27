@@ -36,6 +36,8 @@ module.exports = {
     searchMaxSuggestions: 10,
     searchPlaceholder: "検索...",
     lastUpdated: "Last Updated",
+    nextLinks: false,
+    prevLinks: false,
     locales: {
       "/": {
         // // text for the language dropdown
