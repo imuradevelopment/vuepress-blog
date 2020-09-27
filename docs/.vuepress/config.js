@@ -78,7 +78,7 @@ module.exports = {
     },
     // algolia docsearch options for current locale
     algolia: {},
-    logo: "/logo.ico",
+    logo: "/logo.png",
     sidebar: [
       {
         title: "vuepressブログ構築",
