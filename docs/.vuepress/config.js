@@ -85,14 +85,14 @@ module.exports = {
         path: "/",
         collapsable: false,
         sidebarDepth: 3,
-        children: ["/", "/vuepress", "/markdown拡張"],
+        children: ["/vuepress", "/markdown拡張"],
       },
       {
         title: "ブログ",
         path: "/blog/",
         collapsable: true,
         sidebarDepth: 3,
-        children: ["/blog/", "/blog/article_2", "/blog/article_3"],
+        children: ["/blog/article_2", "/blog/article_3"],
       },
       // {
       //   "/blog/": ["", "/blog/article_2", "/blog/article_3"],
