@@ -54,8 +54,8 @@ module.exports = {
     algolia: {},
     logo: "/favicon.ico",
     sidebar: {
-      "/blog/": ["/", "/article_2", "/article_3"],
-      "/": ["", "/blog/vuepress", "/markdown拡張"],
+      "/blog/": ["", "/article_2", "/article_3"],
+      "/": ["/", "/blog/vuepress", "/markdown拡張"],
     },
     nav: [
       {
