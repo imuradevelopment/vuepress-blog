@@ -1,4 +1,5 @@
 module.exports = {
+  base:'/test/',
   locales: {
     "/": {
       lang: "ja",
