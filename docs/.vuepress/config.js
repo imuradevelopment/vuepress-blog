@@ -52,7 +52,7 @@ module.exports = {
     },
     // algolia docsearch options for current locale
     algolia: {},
-    logo: "/logo.png",
+    logo: "/favicon.ico",
     sidebar: {
       "/blog/": ["", "/blog/vuepress"],
       "/": ["/", "/article_1", "/article_2", "/article_3"],
