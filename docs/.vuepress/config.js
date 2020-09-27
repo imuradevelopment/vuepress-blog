@@ -3,7 +3,7 @@ module.exports = {
   locales: {
     "/": {
       lang: "ja",
-      title: "ADHDの休憩所",
+      //title: "ADHDの休憩所",
       description: " メモ用ブログ ",
       head: [
         ["link", { rel: "icon", href: "/favicon.ico" }],
