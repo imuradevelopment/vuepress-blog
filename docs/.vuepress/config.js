@@ -38,6 +38,7 @@ module.exports = {
     lastUpdated: "最終更新",
     nextLinks: true,
     prevLinks: true,
+    smoothScroll: true,
     // // Assumes GitHub. Can also be a full GitLab url.
     // repo: "imuradevelopment/vuepress-blog",
     // // Customising the header label
@@ -120,5 +121,6 @@ module.exports = {
     lineNumbers: true,
     toc: { includeLevel: [1, 2, 3] },
   },
+  plugins: ['@vuepress/back-to-top'],
   seo: {},
 };
