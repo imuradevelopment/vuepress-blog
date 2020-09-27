@@ -6,7 +6,7 @@ module.exports = {
       title: "ADHDの休憩所",
       description: " メモ用ブログ ",
       head: [
-        ['link', { rel: 'icon', href: '/logo.png' }],
+        ['link', { rel: 'icon', href: 'public/favicon.png' }],
         //        ['meta', { name: 'keywords', content: 'xxx, vueブログ' }],
         //        ['meta', { property: 'og:title', content: 'xxx' }],
         [
