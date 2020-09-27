@@ -10,6 +10,7 @@
     - [使える絵文字一覧](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json)
     - [コードスニペットのimport](https://vuepress.vuejs.org/guide/markdown.html#import-code-snippets)
     - [コンテナ拡張](https://vuepress.github.io/en/plugins/container/#installation)
+    - [アルゴリア検索](https://vuepress.vuejs.org/theme/default-theme-config.html#algolia-search)
   - 調査
     - [リダイレクト？](https://vuepress.vuejs.org/guide/markdown.html#redirection-for-urls)
     - [フロントマター](https://vuepress.vuejs.org/guide/markdown.html#frontmatter)

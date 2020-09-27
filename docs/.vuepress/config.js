@@ -31,6 +31,11 @@ module.exports = {
     },
   },
   themeConfig: {
+    navber: true,
+    search: true,
+    searchMaxSuggestions: 10,
+    searchPlaceholder: "検索...",
+    lastUpdated: "Last Updated",
     locales: {
       "/": {
         // // text for the language dropdown
