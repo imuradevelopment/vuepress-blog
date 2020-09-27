@@ -53,10 +53,26 @@ module.exports = {
     // algolia docsearch options for current locale
     algolia: {},
     logo: "/favicon.ico",
-    sidebar: {
-      "/blog/": ["", "/blog/article_2", "/blog/article_3"],
-      "/": [["/", "技術メモブログ"], "/vuepress", "/markdown拡張"],
-    },
+    sidebar: [
+      {
+        title: "ブログ",
+        path: "/blog/",
+        collapsable: false,
+        sidebarDepth: 3,
+        children: ["", "/blog/article_2", "/blog/article_3"],
+      },
+      {
+        title: "vuepressブログ構築",
+        path: "/",
+        collapsable: false,
+        sidebarDepth: 3,
+        children: [["/", "技術メモブログ"], "/vuepress", "/markdown拡張"],
+      },
+      // {
+      //   "/blog/": ["", "/blog/article_2", "/blog/article_3"],
+      //   "/": [["/", "技術メモブログ"], "/vuepress", "/markdown拡張"],
+      // },
+    ],
     nav: [
       {
         text: "ホーム",
