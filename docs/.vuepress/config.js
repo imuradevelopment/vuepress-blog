@@ -1,5 +1,5 @@
 module.exports = {
-//  base: '/test/',
+  base: '/blog/',
   locales: {
     "/": {
       lang: "ja",
