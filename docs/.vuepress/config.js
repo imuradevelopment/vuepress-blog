@@ -6,7 +6,7 @@ module.exports = {
       title: "ADHDの休憩所",
       description: " メモ用ブログ ",
       head: [
-        ['link', { rel: 'icon', href: '/favicon.ico' }],
+        ["link", { rel: "icon", href: "/favicon.ico" }],
         //        ['meta', { name: 'keywords', content: 'xxx, vueブログ' }],
         //        ['meta', { property: 'og:title', content: 'xxx' }],
         [
@@ -52,6 +52,7 @@ module.exports = {
     },
     // algolia docsearch options for current locale
     algolia: {},
+    logo: "/logo.png",
     sidebar: {
       "/blog/": ["", "/blog/vuepress"],
       "/": ["/", "/article_1", "/article_2", "/article_3"],
