@@ -60,9 +60,19 @@ module.exports = {
     //sidebar: ["/", "/article_1", "/article_2", "/article_3", "/vuepress"],
     nav: [
       {
-        text: "blog",
+        text: "Home",
+        link: "/",
+        ariaLabel: "Home",
+      },
+      {
+        text: "Blog",
         link: "/blog/",
-        ariaLabel: "blog",
+        ariaLabel: "Blog",
+      },
+      {
+        text: "Twitter",
+        link: "https://twitter.com/ADHD66502327",
+        ariaLabel: "Twitter",
       },
     ],
   },
