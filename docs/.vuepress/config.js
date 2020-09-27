@@ -55,7 +55,7 @@ module.exports = {
     logo: "/favicon.ico",
     sidebar: {
       "/blog/": ["", "/blog/vuepress"],
-      "/": ["/", "/article_1", "/article_2", "/article_3"],
+      "/": ["/", "/markdown拡張", "/article_2", "/article_3"],
     },
     //sidebar: ["/", "/article_1", "/article_2", "/article_3", "/vuepress"],
     nav: [
