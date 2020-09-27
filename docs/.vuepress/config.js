@@ -35,7 +35,7 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     searchPlaceholder: "検索...",
-    lastUpdated: "Last Updated",
+    lastUpdated: "最終更新",
     nextLinks: false,
     prevLinks: false,
     locales: {
