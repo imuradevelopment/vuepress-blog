@@ -54,18 +54,17 @@ module.exports = {
     algolia: {},
     logo: "/favicon.ico",
     sidebar: {
-      "/blog/": ["", "/blog/vuepress"],
-      "/": ["/", "/markdown拡張", "/article_2", "/article_3"],
+      "/blog/": ["/", "/article_2", "/article_3"],
+      "/": ["", "/blog/vuepress", "/markdown拡張"],
     },
-    //sidebar: ["/", "/article_1", "/article_2", "/article_3", "/vuepress"],
     nav: [
       {
-        text: "Home",
+        text: "ホーム",
         link: "/",
         ariaLabel: "Home",
       },
       {
-        text: "Blog",
+        text: "ブログ",
         link: "/blog/",
         ariaLabel: "Blog",
       },
