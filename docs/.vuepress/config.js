@@ -83,7 +83,7 @@ module.exports = {
       {
         title: "vuepressブログ構築",
         path: "/",
-        collapsable: true,
+        collapsable: false,
         sidebarDepth: 3,
         children: ["/", "/vuepress", "/markdown拡張"],
       },
@@ -100,16 +100,16 @@ module.exports = {
       // },
     ],
     nav: [
-      {
-        text: "ホーム",
-        link: "/",
-        ariaLabel: "Home",
-      },
-      {
-        text: "ブログ",
-        link: "/blog/",
-        ariaLabel: "Blog",
-      },
+      // {
+      //   text: "ホーム",
+      //   link: "/",
+      //   ariaLabel: "Home",
+      // },
+      // {
+      //   text: "ブログ",
+      //   link: "/blog/",
+      //   ariaLabel: "Blog",
+      // },
       {
         text: "Twitter",
         link: "https://twitter.com/ADHD66502327",
