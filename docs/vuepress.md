@@ -24,6 +24,7 @@
     - [TermuxでgitのAndroid設定](https://debslink.hatenadiary.jp/entry/20180922/1537573651)
 - Git
   - [Gitでやりたいこと、ここで見つかる](https://qiita.com/shimotaroo/items/b73d896ace10894fd290)
+  - [Gitで色々取り消したい](https://qiita.com/tani-shi/items/3419600447292abf6c79)
 - Netlify
   - [netlifyナレッジ共有](https://qiita.com/asahi13/items/4efc5615fa60384c5220)
 
